@@ -31,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void zero(View view) {
+        int n = 0;
+        number.setText(Integer.toString(n));
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -53,7 +57,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void zero(View view) {
-        number.setText("0");
-    }
+
 }
