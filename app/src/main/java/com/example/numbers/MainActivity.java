@@ -56,8 +56,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void zero(View view) {
-        int n = 0;
-        number.setText(Integer.toString(n));
+        counter = 0;
+        number.setText(Integer.toString(counter));
     }
 
     @Override
